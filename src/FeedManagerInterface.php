@@ -36,6 +36,13 @@ interface FeedManagerInterface
     public function getNewsFeeds($userId);
 
     /**
+     * @param array $newsFeeds
+     *
+     * @return $this
+     */
+    public function setNewsFeeds(array $newsFeeds);
+
+    /**
      * @param string $userId
      * @param string $targetUserId
      */
